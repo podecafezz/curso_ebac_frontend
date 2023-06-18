@@ -8,18 +8,24 @@
         body {
           background-color: #ECE5C7;
         }
-      </style>
+    </style>
 </head>
 <body>
     <h1>Formulário</h1>
     <form>
-        <input type="text" placeholder="Nome Completo">
+        <label for="nome">Nome Completo:</label>
         <br>
-        <input type="email" placeholder="Insira o seu E-mail">
+        <input type="text" id="nome" placeholder="Nome Completo">
         <br>
-        <input type="password" placeholder="Coloque a sua Senha">
+        <label for="email">E-mail:</label>
         <br>
+        <input type="email" id="email" placeholder="Insira o seu E-mail">
+        <br>
+        <label for="senha">Senha:</label>
+        <br>
+        <input type="password" id="senha" placeholder="Coloque a sua Senha">
+        <br>
+        <button type="submit">Cadastrar</button>
     </form>
-    <button> Cadastrar </button>
 </body>
 </html>
