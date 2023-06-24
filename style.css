@@ -1,36 +1,106 @@
-body{
-    background-color: #9AC5F4;
-    font-family: 'Lora', serif;    
-}
-creation-date{
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+body > header {
+    background-color: #0E2954;
+    padding: 16px 0;
+    color: whitesmoke;
+}
 
-.section{
+.logo_type{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    width: 150px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.container {
     width: 1366px;
     margin: 0 auto;
 }
 
-.section2{
-
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.section3{
-
+.articles article img {
+   /* height: 180px; */
+   width: 100%;
 }
 
-#fb_wp_img{
-    height: 500px;
-    width: 500px;
+.articles article {
+    width: 30%;
 }
 
-#pets_img{
-    height: 500px;
-    width: 500px;
+section {
+    padding: 16px 0;
 }
 
-#p_img{
-    height: 500px;
-    width: 500px;
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: #1F6E8C;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p, 
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#tecnology {
+    background-color: #2E8A99;
+}
+
+#entertainment {
+    background-color: #84A7A1;
 }

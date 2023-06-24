@@ -1,53 +1,108 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CafeExpress</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css"/>
 </head>
-<header class="header">
-    <h1>CafeExpress</h1><br>
-
-    <h2> O Seu portal de notícia express!</h2>
-</header>
 <body>
-    <div class="section">
-    <section>
-        <h3>Facebook e Instagram vão impedir acesso a notícias no Canadá após aprovação de lei</h1>
-        <article>
-            <p>Legislação prevê que gigantes da tecnologia paguem por conteúdos jornalísticos que são compartilhados nas redes. A Alphabet, dona do Google, também terá que negociar com as empresas de mídia.</p>
-            <a href="https://g1.globo.com/tecnologia/noticia/2023/06/23/facebook-e-instagram-vao-impedir-acesso-a-noticias-no-canada-apos-aprovacao-de-lei.ghtml" title="Leia a notícia completa">Ler mais</a><br>
-            <br><img src="./whats-fb.webp" alt="facebook_whatsapp" id="fb_wp_img">
-            <P>Fonte: G1 notícias</P>
-            <time class="creation-date">24/06/2023 ás 12:30</time>
+   <header>
+   <div class="container">
+    <h1>CafeExpress!</h1>
+    <p> Seu portal de noticias! Fresquinho! </p>
+    <nav>
+        <ul>
+            <li>
+                <a href="#" title="Ir Para A Seção De Tecnologia">Tecnologia</a>
+            </li>
+            <li>
+                <a href="#" title="Ir Para A Seção De Entreterimento">Entreterimento</a>
+            </li>
+        </ul>
+    </nav>
+   </div>
+   </header>
+   <section id="tecnology">
+    <div class="container">
+        <h2>Tecnologia</h2>
+        <div class="articles" >
+            <article>
+                    <img src="./whats-fb.webp" alt="META">
+                <header>
+                    <time class="creation-date">08/04/2023 ás 20:18</time>
+                </header>
+                <h3>Facebook e Instagram vão impedir acesso a notícias no Canadá após aprovação de lei</h3>
+                <p>
+                    Legislação prevê que gigantes da tecnologia paguem por conteúdos jornalísticos que são compartilhados nas redes. A Alphabet, dona do Google, também terá que negociar com as empresas de mídia.
+                </p>
+                <a href="https://g1.globo.com/tecnologia/noticia/2023/06/23/facebook-e-instagram-vao-impedir-acesso-a-noticias-no-canada-apos-aprovacao-de-lei.ghtml" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+            <img src="./pet_4g.webp" alt="pets">
+            <header>
+                <time class="creation-date">15/04/2023 ás 13:27</time>
+            </header>
+            <h3>Tecnologia 4G oferece auxílio na localização de pets perdido</h3>
+            <p>
+                Sistema de rastreamento permite que os tutores possam usar tecnologias inteligentes para localizar seu animal onde ele estiver em tempo real.
+            </p>
+            <a href="https://www.terra.com.br/noticias/tecnologia-4g-oferece-auxilio-na-localizacao-de-pets-perdido,8aed7d9db21630c22644ba0c41ab31e0e131f2vh.html" title="Leia a notícia completa">Ler mais</a>
         </article>
+            <article>
+                <img src="./p_tec.jpg" alt="people and tecnology">
+                <header>
+                    <time class="creation-date">15/04/2023 ás 13:31</time>
+                </header>
+                <h3>Comissão debate impactos da dependência tecnológica na sociedade</h3>
+                <p>
+                    A Comissão de Cultura da Câmara dos Deputados discute, na terça-feira (27), os impactos da dependência tecnológica na sociedade. De acordo com o deputado Aureo Ribeiro (Solidariedade-RJ), que solicitou a realização do debate, a nomofobia – uma abreviação de no-mobile phobia, termo criado no Reino Unido para descrever a angústia de estar sem o aparelho celular ou outros aparelhos eletrônicos – já foi classificada como doença pela Organização Mundial de Saúde (OMS).
+                </p>
+                <a href="https://www.camara.leg.br/noticias/974310-comissao-debate-impactos-da-dependencia-tecnologica-na-sociedade" title="Leia a notícia completa">Ler mais</a>
+            </article>
+        </div>
+        </div>
     </section>
-    </div>
-    <div class="section2">
-    <section>
-        <h3>Tecnologia 4G oferece auxílio na localização de pets perdido</h3>
-        <article>
-            <p>Sistema de rastreamento permite que os tutores possam usar tecnologias inteligentes para localizar seu animal onde ele estiver em tempo real</p>
-            <a href="https://www.terra.com.br/noticias/tecnologia-4g-oferece-auxilio-na-localizacao-de-pets-perdido,8aed7d9db21630c22644ba0c41ab31e0e131f2vh.html" title="Leia a notícia completa">Ler mais</a><br>
-            <br><img src="./pet_4g.webp" alt="pets" id="pets_img">
-            <P>Fonte: Terra</P>
-            <time class="creation-date">24/06/2023 ás 12:58</time>
-        </article>
-    </section>
-    </div>
-    <section class="section3">
-        <h3>Comissão debate impactos da dependência tecnológica na sociedade</h3>
-        <article id="section3">
-            <p>A Comissão de Cultura da Câmara dos Deputados discute, na terça-feira (27), os impactos da dependência tecnológica na sociedade. De acordo com o deputado Aureo Ribeiro (Solidariedade-RJ), que solicitou a realização do debate, a nomofobia – uma abreviação de no-mobile phobia, termo criado no Reino Unido para descrever a angústia de estar sem o aparelho celular ou outros aparelhos eletrônicos – já foi classificada como doença pela Organização Mundial de Saúde (OMS).</p>
-            <a href="https://www.camara.leg.br/noticias/974310-comissao-debate-impactos-da-dependencia-tecnologica-na-sociedade" title="Leia a notícia completa">Ler mais</a><br>
-            <br><img src="./p_tec.jpg" alt="Pessoas mexendo no celular" id="p_img">
-            <P>Fonte: Agência Câmara de Notícias</P>
-            <time class="creation-date">24/06/2023 ás 13:05</time>
-        </article>
+    <section id="entertainment">
+       <div class="container">
+        <h2>Entretenimento</h2>
+            <div class="articles">
+                <article>
+                    <img src="./maceio.jpeg" alt="Maceió">
+                    <header>
+                        <time class="creation-date">15/04/2923 ás 13:35</time>
+                    </header>
+                    <h3>São João de Maceió: Confira a programação para domingo no Jaraguá</h3>
+                    <p>
+                        Simone Mendes e Gusttavo Lima﻿ prometem colocar o público para dançarSão João de Maceió: Confira a programação para domingo no Jaraguá... 
+                    </p>
+                    <a href="https://ojornalextra.com.br/noticias/entretenimento/2023/06/91254-sao-joao-de-maceio-confira-a-programacao-para-domingo-no-jaragua" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./samuel-k-jackson-marvel.jpg" alt="Samuel K Jackson">
+                    <header>
+                        <time class="creation-date">15/04/2923 ás 13:39</time>
+                    </header>
+                    <h3>Samuel L. Jackson Revela Detalhes Sobre A Segurança Da Marvel Em Entrevista Sobre ‘Invasão Secreta’!</h3>
+                    <p>
+                        Com a mais recente produção da Marvel Studios sendo lançada, mais detalhes estão sendo revelados ao público, principalmente pelo ator principal, Samuel L. Jackson.
+                    </p>
+                    <a href="https://www.onoticiado.com.br/2023/06/24/noticias/marvel-invasao-secreta/" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+                    <article>
+                    <img src="./silvio_silvia.jpg" alt="Silvio Santos e sua filha">
+                    <header>
+                        <time class="creation-date">15/04/2023 ás 13:43</time>
+                    </header>
+                    <h3>Filha de Silvio Santos abre o jogo saúde do pai e volta do apresentador às telinhas</h3>
+                    <p>
+                        “Ele está ótimo, graças a Deus. Com saúde, mais que todo mundo, com seus 92 anos, quase 93. Está muito bem. Adorou o programa que a gente fez em homenagem a ele, assistiu, curtiu, deu risada, se emocionou… Enfim, foi muito bacana”, disse Silvia.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
     </section>
 </body>
 </html>
