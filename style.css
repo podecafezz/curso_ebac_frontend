@@ -1,0 +1,36 @@
+body{
+    background-color: #9AC5F4;
+    font-family: 'Lora', serif;    
+}
+creation-date{
+
+}
+
+
+.section{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.section2{
+
+}
+
+.section3{
+
+}
+
+#fb_wp_img{
+    height: 500px;
+    width: 500px;
+}
+
+#pets_img{
+    height: 500px;
+    width: 500px;
+}
+
+#p_img{
+    height: 500px;
+    width: 500px;
+}
